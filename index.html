@@ -85,6 +85,7 @@ svg.selectAll(".month")
 // 1990-02-20,2619.14,2619.14,2579.05,2596.85,147300000,2596.85
 
 d3.csv("dji.csv", function(error, csv) {
+    debugger;
   if (error) throw error;
 
   var data = d3.nest()
